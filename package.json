@@ -1,0 +1,29 @@
+{
+  "name": "dynamo-utils",
+  "version": "1.0.0",
+  "description": "A thin shim for some utilities needed to incorporate dynamo into a node app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sharkparty/dynamo-utils.git"
+  },
+  "keywords": [
+    "Dynamo",
+    "DynamoDB",
+    "Node"
+  ],
+  "author": "sharkparty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharkparty/dynamo-utils/issues"
+  },
+  "homepage": "https://github.com/sharkparty/dynamo-utils#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.8"
+  }
+}
